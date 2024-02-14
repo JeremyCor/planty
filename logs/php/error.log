@@ -25,3 +25,4 @@
 [02-Feb-2024 13:52:31 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\verci\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 113
 [02-Feb-2024 13:52:31 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\verci\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 113
 [12-Feb-2024 14:08:10 UTC] Erreur d’événement de replanification de tâche pour le crochet action_scheduler_run_queue. Code d’erreur : invalid_schedule. Message d’erreur : L’évènement planifié n’existe pas.. Données : {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[14-Feb-2024 09:57:17 UTC] Erreur d’événement de replanification de tâche pour le crochet action_scheduler_run_queue. Code d’erreur : invalid_schedule. Message d’erreur : L’évènement planifié n’existe pas.. Données : {"schedule":"every_minute","args":["WP Cron"],"interval":60}

@@ -1,0 +1,1 @@
+2024/02/14 09:32:07 [error] 9864#11524: *2526 directory index of "C:/Users/verci/Local Sites/planty/app/public/wp-content/cache/" is forbidden, client: 127.0.0.1, server: , request: "GET /wp-content/cache/ HTTP/1.0", host: "planty.local"

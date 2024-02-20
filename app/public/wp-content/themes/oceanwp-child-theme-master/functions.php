@@ -36,7 +36,7 @@ add_action('wp_enqueue_scripts', 'oceanwp_child_enqueue_parent_style');
 
 add_filter('wp_nav_menu_items', 'add_admin_link', 10, 2);
 
-function add_admin_link($items, $args)
+/* function add_admin_link($items, $args)
 {
 
 	if (is_user_logged_in() && $args->theme_location == 'menu-1') {
@@ -45,4 +45,17 @@ function add_admin_link($items, $args)
 	}
 	return $items;
 
+} */
+
+// functions.php or your custom plugin file
+
+function add_admin_link($items, $args)
+{
+	error_log('La fonction add_admin_link est appelée.'); // Vérification dans les logs d'erreur
+
+	if (is_user_logged_in() && $args->theme_location == 'menu-1') {
+		$items .= '<li><a href="' . get_admin_url() . '">Admin</a></li>';
+	}
+	return $items;
 }
+add_filter('wp_nav_menu_items', 'add_admin_link', 10, 2);

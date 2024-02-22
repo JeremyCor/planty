@@ -10,67 +10,67 @@
 
 get_header(); ?>
 
-	<?php do_action( 'ocean_before_content_wrap' ); ?>
+<?php do_action('ocean_before_content_wrap'); ?>
 
-	<div id="content-wrap" class="container clr">
+<div id="content-wrap" class="container clr">
 
-		<?php do_action( 'ocean_before_primary' ); ?>
+	<?php do_action('ocean_before_primary'); ?>
 
-		<div id="primary" class="content-area clr">
+	<div id="primary" class="content-area clr">
 
-			<?php do_action( 'ocean_before_content' ); ?>
+		<?php do_action('ocean_before_content'); ?>
 
-			<div id="content" class="site-content clr">
+		<div id="content" class="site-content clr">
 
-				<?php do_action( 'ocean_before_content_inner' ); ?>
+			<?php do_action('ocean_before_content_inner'); ?>
 
-				<?php
-				// Elementor `single` location.
-				if ( ! function_exists( 'elementor_theme_do_location' ) || ! elementor_theme_do_location( 'single' ) ) {
+			<?php
+			// Elementor `single` location.
+			if (!function_exists('elementor_theme_do_location') || !elementor_theme_do_location('single')) {
 
-					// Start loop.
-					while ( have_posts() ) :
-						the_post();
+				// Start loop.
+				while (have_posts()):
+					the_post();
 
-						if ( is_singular( 'download' ) ) {
+					if (is_singular('download')) {
 
-							// EDD Page.
-							get_template_part( 'partials/edd/single' );
+						// EDD Page.
+						get_template_part('partials/edd/single');
 
-						} elseif ( is_singular( 'page' ) ) {
+					} elseif (is_singular('page')) {
 
-							// Single post.
-							get_template_part( 'partials/page/layout' );
+						// Single post.
+						get_template_part('partials/page/layout');
 
-						} elseif ( is_singular( 'oceanwp_library' ) || is_singular( 'elementor_library' ) ) {
+					} elseif (is_singular('oceanwp_library') || is_singular('elementor_library')) {
 
-							// Library post types.
-							get_template_part( 'partials/library/layout' );
+						// Library post types.
+						get_template_part('partials/library/layout');
 
-						} else {
+					} else {
 
-							// All other post types.
-							get_template_part( 'partials/single/layout', get_post_type() );
+						// All other post types.
+						get_template_part('partials/single/layout', get_post_type());
 
-						}
+					}
 
-					endwhile;
+				endwhile;
 
-				}
-				?>
+			}
+			?>
 
-				<?php do_action( 'ocean_after_content_inner' ); ?>
+			<?php do_action('ocean_after_content_inner'); ?>
 
-			</div><!-- #content -->
+		</div><!-- #content -->
 
-			<?php do_action( 'ocean_after_content' ); ?>
+		<?php do_action('ocean_after_content'); ?>
 
-		</div><!-- #primary -->
+	</div><!-- #primary -->
 
-		<?php do_action( 'ocean_after_primary' ); ?>
+	<?php do_action('ocean_after_primary'); ?>
 
-	</div><!-- #content-wrap -->
+</div><!-- #content-wrap -->
 
-	<?php do_action( 'ocean_after_content_wrap' ); ?>
+<?php do_action('ocean_after_content_wrap'); ?>
 
 <?php get_footer(); ?>

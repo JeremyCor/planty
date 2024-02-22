@@ -33,29 +33,27 @@ function oceanwp_child_enqueue_parent_style()
 
 add_action('wp_enqueue_scripts', 'oceanwp_child_enqueue_parent_style');
 
-
-add_filter('wp_nav_menu_items', 'add_admin_link', 10, 2);
-
-/* function add_admin_link($items, $args)
-{
-
-	if (is_user_logged_in() && $args->theme_location == 'menu-1') {
-
-		$items .= '<li><a href="' . get_admin_url() . '">Admin</a></li>';
-	}
-	return $items;
-
-} */
-
-// functions.php or your custom plugin file
-
 function add_admin_link($items, $args)
 {
-	error_log('La fonction add_admin_link est appelée.'); // Vérification dans les logs d'erreur
+	// Vérifiez si l'utilisateur est connecté à WordPress
+	if (is_user_logged_in()) {
+		// Construisez le lien "Admin"
+		$admin_link = '<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-admin"><a href="' . esc_url(get_admin_url()) . '">Admin</a></li>';
 
-	if (is_user_logged_in() && $args->theme_location == 'menu-1') {
-		$items .= '<li><a href="' . get_admin_url() . '">Admin</a></li>';
+		// Trouvez la position du premier élément de menu
+		$pos_first_menu = strpos($items, '<li');
+
+		// Trouvez la position du premier élément de menu après le premier
+		$pos_second_menu = strpos($items, '<li', $pos_first_menu + 1);
+
+		// Insérez le lien "Admin" après le premier élément de menu
+		if ($pos_first_menu !== false && $pos_second_menu !== false) {
+			$items = substr_replace($items, $admin_link, $pos_second_menu, 0);
+		}
 	}
 	return $items;
 }
+
+// Ajoutez la fonction comme un filtre pour tous les emplacements de menu
 add_filter('wp_nav_menu_items', 'add_admin_link', 10, 2);
+

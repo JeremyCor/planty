@@ -9,3 +9,36 @@ Version: 1.0
 */
 
 /* Parent stylesheet should be loaded from functions.php not using @import */
+
+/* Menu de navigation */
+
+.commander-color {
+	background-color: #D5A298;
+}
+
+.commander-color .text-wrap {
+	color: white;
+}
+
+.commander-color:hover {
+	background-color: #B43C47;
+}
+
+/* Formulaire Commander */
+
+#frm_form_4_container .frm_primary_label {
+    color: white;
+}
+
+#frm_form_6_container .frm_primary_label {
+    color: white;
+}
+
+/* Footer */
+
+.menu-footer-container {
+	text-align: left;
+} 
+
+/* media@ */
+

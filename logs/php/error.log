@@ -42,3 +42,730 @@
 [20-Feb-2024 11:40:55 UTC] La fonction add_admin_link est appelée.
 [20-Feb-2024 11:40:59 UTC] La fonction add_admin_link est appelée.
 [20-Feb-2024 11:40:59 UTC] La fonction add_admin_link est appelée.
+[20-Feb-2024 16:39:35 UTC] La fonction add_admin_link est appelée.
+[20-Feb-2024 16:39:35 UTC] La fonction add_admin_link est appelée.
+[21-Feb-2024 08:10:44 UTC] La fonction add_admin_link est appelée.
+[21-Feb-2024 08:10:44 UTC] La fonction add_admin_link est appelée.
+[21-Feb-2024 08:14:54 UTC] La fonction add_admin_link est appelée.
+[21-Feb-2024 08:14:54 UTC] La fonction add_admin_link est appelée.
+[21-Feb-2024 08:14:57 UTC] La fonction add_admin_link est appelée.
+[21-Feb-2024 08:14:57 UTC] La fonction add_admin_link est appelée.
+[21-Feb-2024 08:15:06 UTC] La fonction add_admin_link est appelée.
+[21-Feb-2024 08:15:06 UTC] La fonction add_admin_link est appelée.
+[21-Feb-2024 08:25:48 UTC] La fonction add_admin_link est appelée.
+[21-Feb-2024 08:25:48 UTC] La fonction add_admin_link est appelée.
+[21-Feb-2024 08:31:36 UTC] La fonction add_admin_link est appelée.
+[21-Feb-2024 08:31:36 UTC] La fonction add_admin_link est appelée.
+[21-Feb-2024 08:33:03 UTC] La fonction add_admin_link est appelée.
+[21-Feb-2024 08:33:03 UTC] La fonction add_admin_link est appelée.
+[21-Feb-2024 08:37:28 UTC] La fonction add_admin_link est appelée.
+[21-Feb-2024 08:37:28 UTC] La fonction add_admin_link est appelée.
+[21-Feb-2024 08:38:42 UTC] La fonction add_admin_link est appelée.
+[21-Feb-2024 08:38:42 UTC] La fonction add_admin_link est appelée.
+[21-Feb-2024 11:49:20 UTC] La fonction add_admin_link est appelée.
+[21-Feb-2024 11:49:20 UTC] La fonction add_admin_link est appelée.
+[21-Feb-2024 11:49:29 UTC] La fonction add_admin_link est appelée.
+[21-Feb-2024 11:49:29 UTC] La fonction add_admin_link est appelée.
+[21-Feb-2024 11:49:48 UTC] La fonction add_admin_link est appelée.
+[21-Feb-2024 11:49:48 UTC] La fonction add_admin_link est appelée.
+[21-Feb-2024 11:49:48 UTC] La fonction add_admin_link est appelée.
+[21-Feb-2024 11:49:48 UTC] La fonction add_admin_link est appelée.
+[21-Feb-2024 11:49:50 UTC] La fonction add_admin_link est appelée.
+[21-Feb-2024 11:49:50 UTC] La fonction add_admin_link est appelée.
+[21-Feb-2024 11:49:51 UTC] La fonction add_admin_link est appelée.
+[21-Feb-2024 11:49:51 UTC] La fonction add_admin_link est appelée.
+[22-Feb-2024 09:46:10 UTC] La fonction add_admin_link est appelée.
+[22-Feb-2024 09:46:10 UTC] La fonction add_admin_link est appelée.
+[22-Feb-2024 09:46:10 UTC] La fonction add_admin_link est appelée.
+[22-Feb-2024 09:46:10 UTC] La fonction add_admin_link est appelée.
+[22-Feb-2024 10:00:34 UTC] La fonction add_admin_link est appelée.
+[22-Feb-2024 10:00:34 UTC] La fonction add_admin_link est appelée.
+[22-Feb-2024 10:00:36 UTC] La fonction add_admin_link est appelée.
+[22-Feb-2024 10:00:36 UTC] La fonction add_admin_link est appelée.
+[22-Feb-2024 10:00:41 UTC] La fonction add_admin_link est appelée.
+[22-Feb-2024 10:00:41 UTC] La fonction add_admin_link est appelée.
+[22-Feb-2024 10:00:45 UTC] La fonction add_admin_link est appelée.
+[22-Feb-2024 10:00:45 UTC] La fonction add_admin_link est appelée.
+[22-Feb-2024 10:01:01 UTC] La fonction add_admin_link est appelée.
+[22-Feb-2024 10:01:01 UTC] La fonction add_admin_link est appelée.
+[22-Feb-2024 10:01:06 UTC] La fonction add_admin_link est appelée.
+[22-Feb-2024 10:01:06 UTC] La fonction add_admin_link est appelée.
+[22-Feb-2024 10:01:28 UTC] La fonction add_admin_link est appelée.
+[22-Feb-2024 10:01:28 UTC] La fonction add_admin_link est appelée.
+[22-Feb-2024 10:01:30 UTC] La fonction add_admin_link est appelée.
+[22-Feb-2024 10:01:30 UTC] La fonction add_admin_link est appelée.
+[22-Feb-2024 10:01:35 UTC] La fonction add_admin_link est appelée.
+[22-Feb-2024 10:01:35 UTC] La fonction add_admin_link est appelée.
+[22-Feb-2024 10:01:42 UTC] La fonction add_admin_link est appelée.
+[22-Feb-2024 10:01:42 UTC] La fonction add_admin_link est appelée.
+[22-Feb-2024 10:20:19 UTC] La fonction add_admin_link est appelée.
+[22-Feb-2024 10:20:19 UTC] La fonction add_admin_link est appelée.
+[22-Feb-2024 10:32:09 UTC] La fonction add_admin_link est appelée.
+[22-Feb-2024 10:32:09 UTC] La fonction add_admin_link est appelée.
+[22-Feb-2024 10:32:13 UTC] La fonction add_admin_link est appelée.
+[22-Feb-2024 10:32:13 UTC] La fonction add_admin_link est appelée.
+[22-Feb-2024 10:43:10 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "add_admin_link" not found or invalid function name in C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#1 C:\Users\verci\Local Sites\planty\app\public\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#2 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\partials\header\nav.php(176): wp_nav_menu(Object(stdClass))
+#3 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(792): require('C:\\Users\\verci\\...')
+#4 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', false, Array)
+#5 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#6 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\inc\header-content.php(127): get_template_part('partials/header...')
+#7 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): oceanwp_header_navigation('')
+#8 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\partials\header\layout.php(100): do_action('ocean_header_in...')
+#11 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(792): require('C:\\Users\\verci\\...')
+#12 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', false, Array)
+#13 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#14 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\inc\helpers.php(1064): get_template_part('partials/header...')
+#15 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): oceanwp_header_template('')
+#16 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#17 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#18 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\header.php(37): do_action('ocean_header')
+#19 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(790): require_once('C:\\Users\\verci\\...')
+#20 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', true, Array)
+#21 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#22 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\page.php(12): get_header()
+#23 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\verci\\...')
+#24 C:\Users\verci\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\verci\\...')
+#25 C:\Users\verci\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\verci\\...')
+#26 {main}
+  thrown in C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324
+[22-Feb-2024 10:43:16 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "add_admin_link" not found or invalid function name in C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#1 C:\Users\verci\Local Sites\planty\app\public\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#2 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\partials\header\nav.php(176): wp_nav_menu(Object(stdClass))
+#3 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(792): require('C:\\Users\\verci\\...')
+#4 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', false, Array)
+#5 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#6 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\inc\header-content.php(127): get_template_part('partials/header...')
+#7 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): oceanwp_header_navigation('')
+#8 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\partials\header\layout.php(100): do_action('ocean_header_in...')
+#11 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(792): require('C:\\Users\\verci\\...')
+#12 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', false, Array)
+#13 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#14 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\inc\helpers.php(1064): get_template_part('partials/header...')
+#15 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): oceanwp_header_template('')
+#16 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#17 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#18 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\header.php(37): do_action('ocean_header')
+#19 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(790): require_once('C:\\Users\\verci\\...')
+#20 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', true, Array)
+#21 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#22 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\page.php(12): get_header()
+#23 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\verci\\...')
+#24 C:\Users\verci\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\verci\\...')
+#25 C:\Users\verci\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\verci\\...')
+#26 {main}
+  thrown in C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324
+[22-Feb-2024 10:48:00 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "add_admin_link" not found or invalid function name in C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#1 C:\Users\verci\Local Sites\planty\app\public\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#2 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\partials\header\nav.php(176): wp_nav_menu(Object(stdClass))
+#3 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(792): require('C:\\Users\\verci\\...')
+#4 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', false, Array)
+#5 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#6 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\inc\header-content.php(127): get_template_part('partials/header...')
+#7 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): oceanwp_header_navigation('')
+#8 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\partials\header\layout.php(100): do_action('ocean_header_in...')
+#11 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(792): require('C:\\Users\\verci\\...')
+#12 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', false, Array)
+#13 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#14 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\inc\helpers.php(1064): get_template_part('partials/header...')
+#15 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): oceanwp_header_template('')
+#16 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#17 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#18 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\header.php(37): do_action('ocean_header')
+#19 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(790): require_once('C:\\Users\\verci\\...')
+#20 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', true, Array)
+#21 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#22 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\page.php(12): get_header()
+#23 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\verci\\...')
+#24 C:\Users\verci\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\verci\\...')
+#25 C:\Users\verci\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\verci\\...')
+#26 {main}
+  thrown in C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324
+[22-Feb-2024 10:48:04 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "add_admin_link" not found or invalid function name in C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#1 C:\Users\verci\Local Sites\planty\app\public\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#2 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\partials\header\nav.php(176): wp_nav_menu(Object(stdClass))
+#3 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(792): require('C:\\Users\\verci\\...')
+#4 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', false, Array)
+#5 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#6 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\inc\header-content.php(127): get_template_part('partials/header...')
+#7 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): oceanwp_header_navigation('')
+#8 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\partials\header\layout.php(100): do_action('ocean_header_in...')
+#11 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(792): require('C:\\Users\\verci\\...')
+#12 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', false, Array)
+#13 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#14 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\inc\helpers.php(1064): get_template_part('partials/header...')
+#15 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): oceanwp_header_template('')
+#16 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#17 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#18 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\header.php(37): do_action('ocean_header')
+#19 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(790): require_once('C:\\Users\\verci\\...')
+#20 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', true, Array)
+#21 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#22 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\page.php(12): get_header()
+#23 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\verci\\...')
+#24 C:\Users\verci\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\verci\\...')
+#25 C:\Users\verci\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\verci\\...')
+#26 {main}
+  thrown in C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324
+[22-Feb-2024 10:48:25 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "add_admin_link" not found or invalid function name in C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#1 C:\Users\verci\Local Sites\planty\app\public\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#2 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\partials\header\nav.php(176): wp_nav_menu(Object(stdClass))
+#3 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(792): require('C:\\Users\\verci\\...')
+#4 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', false, Array)
+#5 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#6 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\inc\header-content.php(127): get_template_part('partials/header...')
+#7 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): oceanwp_header_navigation('')
+#8 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\partials\header\layout.php(100): do_action('ocean_header_in...')
+#11 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(792): require('C:\\Users\\verci\\...')
+#12 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', false, Array)
+#13 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#14 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\inc\helpers.php(1064): get_template_part('partials/header...')
+#15 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): oceanwp_header_template('')
+#16 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#17 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#18 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\header.php(37): do_action('ocean_header')
+#19 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(790): require_once('C:\\Users\\verci\\...')
+#20 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', true, Array)
+#21 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#22 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\page.php(12): get_header()
+#23 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\verci\\...')
+#24 C:\Users\verci\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\verci\\...')
+#25 C:\Users\verci\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\verci\\...')
+#26 {main}
+  thrown in C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324
+[22-Feb-2024 10:48:30 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "add_admin_link" not found or invalid function name in C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#1 C:\Users\verci\Local Sites\planty\app\public\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#2 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\partials\header\nav.php(176): wp_nav_menu(Object(stdClass))
+#3 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(792): require('C:\\Users\\verci\\...')
+#4 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', false, Array)
+#5 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#6 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\inc\header-content.php(127): get_template_part('partials/header...')
+#7 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): oceanwp_header_navigation('')
+#8 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\partials\header\layout.php(100): do_action('ocean_header_in...')
+#11 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(792): require('C:\\Users\\verci\\...')
+#12 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', false, Array)
+#13 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#14 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\inc\helpers.php(1064): get_template_part('partials/header...')
+#15 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): oceanwp_header_template('')
+#16 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#17 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#18 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\header.php(37): do_action('ocean_header')
+#19 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(790): require_once('C:\\Users\\verci\\...')
+#20 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', true, Array)
+#21 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#22 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\page.php(12): get_header()
+#23 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\verci\\...')
+#24 C:\Users\verci\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\verci\\...')
+#25 C:\Users\verci\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\verci\\...')
+#26 {main}
+  thrown in C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324
+[22-Feb-2024 11:03:13 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "modify_admin_link_order" not found or invalid function name in C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#1 C:\Users\verci\Local Sites\planty\app\public\wp-includes\nav-menu-template.php(234): apply_filters('wp_nav_menu_obj...', Array, Object(stdClass))
+#2 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\partials\header\nav.php(176): wp_nav_menu(Object(stdClass))
+#3 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(792): require('C:\\Users\\verci\\...')
+#4 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', false, Array)
+#5 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#6 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\inc\header-content.php(127): get_template_part('partials/header...')
+#7 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): oceanwp_header_navigation('')
+#8 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\partials\header\layout.php(100): do_action('ocean_header_in...')
+#11 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(792): require('C:\\Users\\verci\\...')
+#12 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', false, Array)
+#13 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#14 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\inc\helpers.php(1064): get_template_part('partials/header...')
+#15 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): oceanwp_header_template('')
+#16 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#17 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#18 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\header.php(37): do_action('ocean_header')
+#19 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(790): require_once('C:\\Users\\verci\\...')
+#20 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', true, Array)
+#21 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#22 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\page.php(12): get_header()
+#23 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\verci\\...')
+#24 C:\Users\verci\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\verci\\...')
+#25 C:\Users\verci\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\verci\\...')
+#26 {main}
+  thrown in C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324
+[22-Feb-2024 11:04:52 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "add_admin_link" not found or invalid function name in C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#1 C:\Users\verci\Local Sites\planty\app\public\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#2 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\partials\header\nav.php(176): wp_nav_menu(Object(stdClass))
+#3 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(792): require('C:\\Users\\verci\\...')
+#4 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', false, Array)
+#5 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#6 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\inc\header-content.php(127): get_template_part('partials/header...')
+#7 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): oceanwp_header_navigation('')
+#8 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\partials\header\layout.php(100): do_action('ocean_header_in...')
+#11 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(792): require('C:\\Users\\verci\\...')
+#12 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', false, Array)
+#13 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#14 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\inc\helpers.php(1064): get_template_part('partials/header...')
+#15 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): oceanwp_header_template('')
+#16 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#17 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#18 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\header.php(37): do_action('ocean_header')
+#19 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(790): require_once('C:\\Users\\verci\\...')
+#20 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', true, Array)
+#21 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#22 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\page.php(12): get_header()
+#23 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\verci\\...')
+#24 C:\Users\verci\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\verci\\...')
+#25 C:\Users\verci\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\verci\\...')
+#26 {main}
+  thrown in C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324
+[22-Feb-2024 11:08:25 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_admin_link(), 1 passed in C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 326 and exactly 2 expected in C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php:39
+Stack trace:
+#0 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(326): add_admin_link('<li id="menu-it...')
+#1 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#2 C:\Users\verci\Local Sites\planty\app\public\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#3 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\partials\header\nav.php(176): wp_nav_menu(Object(stdClass))
+#4 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(792): require('C:\\Users\\verci\\...')
+#5 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', false, Array)
+#6 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#7 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\inc\header-content.php(127): get_template_part('partials/header...')
+#8 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): oceanwp_header_navigation('')
+#9 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#11 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\partials\header\layout.php(100): do_action('ocean_header_in...')
+#12 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(792): require('C:\\Users\\verci\\...')
+#13 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', false, Array)
+#14 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#15 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\inc\helpers.php(1064): get_template_part('partials/header...')
+#16 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): oceanwp_header_template('')
+#17 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#18 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#19 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\header.php(37): do_action('ocean_header')
+#20 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(790): require_once('C:\\Users\\verci\\...')
+#21 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', true, Array)
+#22 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#23 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\page.php(12): get_header()
+#24 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\verci\\...')
+#25 C:\Users\verci\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\verci\\...')
+#26 C:\Users\verci\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\verci\\...')
+#27 {main}
+  thrown in C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php on line 39
+[22-Feb-2024 11:29:27 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "add_admin_link" not found or invalid function name in C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#1 C:\Users\verci\Local Sites\planty\app\public\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#2 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\partials\header\nav.php(176): wp_nav_menu(Object(stdClass))
+#3 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(792): require('C:\\Users\\verci\\...')
+#4 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', false, Array)
+#5 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#6 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\inc\header-content.php(127): get_template_part('partials/header...')
+#7 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): oceanwp_header_navigation('')
+#8 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\partials\header\layout.php(100): do_action('ocean_header_in...')
+#11 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(792): require('C:\\Users\\verci\\...')
+#12 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', false, Array)
+#13 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#14 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\inc\helpers.php(1064): get_template_part('partials/header...')
+#15 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): oceanwp_header_template('')
+#16 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#17 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#18 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\header.php(37): do_action('ocean_header')
+#19 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(790): require_once('C:\\Users\\verci\\...')
+#20 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', true, Array)
+#21 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#22 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\page.php(12): get_header()
+#23 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\verci\\...')
+#24 C:\Users\verci\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\verci\\...')
+#25 C:\Users\verci\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\verci\\...')
+#26 {main}
+  thrown in C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324
+[22-Feb-2024 11:29:52 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "add_admin_link" not found or invalid function name in C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#1 C:\Users\verci\Local Sites\planty\app\public\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#2 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\partials\header\nav.php(176): wp_nav_menu(Object(stdClass))
+#3 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(792): require('C:\\Users\\verci\\...')
+#4 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', false, Array)
+#5 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#6 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\inc\header-content.php(127): get_template_part('partials/header...')
+#7 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): oceanwp_header_navigation('')
+#8 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\partials\header\layout.php(100): do_action('ocean_header_in...')
+#11 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(792): require('C:\\Users\\verci\\...')
+#12 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', false, Array)
+#13 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#14 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\inc\helpers.php(1064): get_template_part('partials/header...')
+#15 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): oceanwp_header_template('')
+#16 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#17 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#18 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\header.php(37): do_action('ocean_header')
+#19 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(790): require_once('C:\\Users\\verci\\...')
+#20 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', true, Array)
+#21 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#22 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\page.php(12): get_header()
+#23 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\verci\\...')
+#24 C:\Users\verci\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\verci\\...')
+#25 C:\Users\verci\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\verci\\...')
+#26 {main}
+  thrown in C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324
+[22-Feb-2024 11:29:56 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "add_admin_link" not found or invalid function name in C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#1 C:\Users\verci\Local Sites\planty\app\public\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#2 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\partials\header\nav.php(176): wp_nav_menu(Object(stdClass))
+#3 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(792): require('C:\\Users\\verci\\...')
+#4 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', false, Array)
+#5 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#6 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\inc\header-content.php(127): get_template_part('partials/header...')
+#7 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): oceanwp_header_navigation('')
+#8 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\partials\header\layout.php(100): do_action('ocean_header_in...')
+#11 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(792): require('C:\\Users\\verci\\...')
+#12 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', false, Array)
+#13 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#14 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\inc\helpers.php(1064): get_template_part('partials/header...')
+#15 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): oceanwp_header_template('')
+#16 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#17 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#18 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\header.php(37): do_action('ocean_header')
+#19 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(790): require_once('C:\\Users\\verci\\...')
+#20 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', true, Array)
+#21 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#22 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\page.php(12): get_header()
+#23 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\verci\\...')
+#24 C:\Users\verci\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\verci\\...')
+#25 C:\Users\verci\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\verci\\...')
+#26 {main}
+  thrown in C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324
+[22-Feb-2024 11:30:08 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "add_admin_link" not found or invalid function name in C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#1 C:\Users\verci\Local Sites\planty\app\public\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#2 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\partials\header\nav.php(176): wp_nav_menu(Object(stdClass))
+#3 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(792): require('C:\\Users\\verci\\...')
+#4 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', false, Array)
+#5 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#6 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\inc\header-content.php(127): get_template_part('partials/header...')
+#7 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): oceanwp_header_navigation('')
+#8 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\partials\header\layout.php(100): do_action('ocean_header_in...')
+#11 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(792): require('C:\\Users\\verci\\...')
+#12 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', false, Array)
+#13 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#14 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\inc\helpers.php(1064): get_template_part('partials/header...')
+#15 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): oceanwp_header_template('')
+#16 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#17 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#18 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\header.php(37): do_action('ocean_header')
+#19 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(790): require_once('C:\\Users\\verci\\...')
+#20 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', true, Array)
+#21 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#22 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\page.php(12): get_header()
+#23 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\verci\\...')
+#24 C:\Users\verci\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\verci\\...')
+#25 C:\Users\verci\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\verci\\...')
+#26 {main}
+  thrown in C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324
+[22-Feb-2024 11:30:11 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "add_admin_link" not found or invalid function name in C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#1 C:\Users\verci\Local Sites\planty\app\public\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#2 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\partials\header\nav.php(176): wp_nav_menu(Object(stdClass))
+#3 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(792): require('C:\\Users\\verci\\...')
+#4 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', false, Array)
+#5 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#6 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\inc\header-content.php(127): get_template_part('partials/header...')
+#7 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): oceanwp_header_navigation('')
+#8 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\partials\header\layout.php(100): do_action('ocean_header_in...')
+#11 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(792): require('C:\\Users\\verci\\...')
+#12 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', false, Array)
+#13 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#14 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\inc\helpers.php(1064): get_template_part('partials/header...')
+#15 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): oceanwp_header_template('')
+#16 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#17 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#18 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\header.php(37): do_action('ocean_header')
+#19 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(790): require_once('C:\\Users\\verci\\...')
+#20 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', true, Array)
+#21 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#22 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\page.php(12): get_header()
+#23 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\verci\\...')
+#24 C:\Users\verci\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\verci\\...')
+#25 C:\Users\verci\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\verci\\...')
+#26 {main}
+  thrown in C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324
+[22-Feb-2024 11:30:14 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "add_admin_link" not found or invalid function name in C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#1 C:\Users\verci\Local Sites\planty\app\public\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#2 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\partials\header\nav.php(176): wp_nav_menu(Object(stdClass))
+#3 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(792): require('C:\\Users\\verci\\...')
+#4 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', false, Array)
+#5 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#6 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\inc\header-content.php(127): get_template_part('partials/header...')
+#7 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): oceanwp_header_navigation('')
+#8 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\partials\header\layout.php(100): do_action('ocean_header_in...')
+#11 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(792): require('C:\\Users\\verci\\...')
+#12 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', false, Array)
+#13 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#14 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\inc\helpers.php(1064): get_template_part('partials/header...')
+#15 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): oceanwp_header_template('')
+#16 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#17 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#18 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\header.php(37): do_action('ocean_header')
+#19 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(790): require_once('C:\\Users\\verci\\...')
+#20 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', true, Array)
+#21 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#22 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\page.php(12): get_header()
+#23 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\verci\\...')
+#24 C:\Users\verci\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\verci\\...')
+#25 C:\Users\verci\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\verci\\...')
+#26 {main}
+  thrown in C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324
+[22-Feb-2024 11:30:14 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "add_admin_link" not found or invalid function name in C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#1 C:\Users\verci\Local Sites\planty\app\public\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#2 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\partials\header\nav.php(176): wp_nav_menu(Object(stdClass))
+#3 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(792): require('C:\\Users\\verci\\...')
+#4 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', false, Array)
+#5 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#6 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\inc\header-content.php(127): get_template_part('partials/header...')
+#7 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): oceanwp_header_navigation('')
+#8 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\partials\header\layout.php(100): do_action('ocean_header_in...')
+#11 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(792): require('C:\\Users\\verci\\...')
+#12 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', false, Array)
+#13 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#14 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\inc\helpers.php(1064): get_template_part('partials/header...')
+#15 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): oceanwp_header_template('')
+#16 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#17 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#18 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\header.php(37): do_action('ocean_header')
+#19 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(790): require_once('C:\\Users\\verci\\...')
+#20 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', true, Array)
+#21 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#22 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\page.php(12): get_header()
+#23 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\verci\\...')
+#24 C:\Users\verci\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\verci\\...')
+#25 C:\Users\verci\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\verci\\...')
+#26 {main}
+  thrown in C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324
+[22-Feb-2024 11:30:15 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "add_admin_link" not found or invalid function name in C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#1 C:\Users\verci\Local Sites\planty\app\public\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#2 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\partials\header\nav.php(176): wp_nav_menu(Object(stdClass))
+#3 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(792): require('C:\\Users\\verci\\...')
+#4 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', false, Array)
+#5 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#6 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\inc\header-content.php(127): get_template_part('partials/header...')
+#7 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): oceanwp_header_navigation('')
+#8 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\partials\header\layout.php(100): do_action('ocean_header_in...')
+#11 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(792): require('C:\\Users\\verci\\...')
+#12 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', false, Array)
+#13 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#14 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\inc\helpers.php(1064): get_template_part('partials/header...')
+#15 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): oceanwp_header_template('')
+#16 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#17 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#18 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\header.php(37): do_action('ocean_header')
+#19 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(790): require_once('C:\\Users\\verci\\...')
+#20 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', true, Array)
+#21 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#22 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\page.php(12): get_header()
+#23 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\verci\\...')
+#24 C:\Users\verci\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\verci\\...')
+#25 C:\Users\verci\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\verci\\...')
+#26 {main}
+  thrown in C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324
+[22-Feb-2024 11:30:17 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "add_admin_link" not found or invalid function name in C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#1 C:\Users\verci\Local Sites\planty\app\public\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#2 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\partials\header\nav.php(176): wp_nav_menu(Object(stdClass))
+#3 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(792): require('C:\\Users\\verci\\...')
+#4 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', false, Array)
+#5 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#6 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\inc\header-content.php(127): get_template_part('partials/header...')
+#7 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): oceanwp_header_navigation('')
+#8 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#9 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\partials\header\layout.php(100): do_action('ocean_header_in...')
+#11 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(792): require('C:\\Users\\verci\\...')
+#12 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', false, Array)
+#13 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#14 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\inc\helpers.php(1064): get_template_part('partials/header...')
+#15 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): oceanwp_header_template('')
+#16 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#17 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#18 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\header.php(37): do_action('ocean_header')
+#19 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(790): require_once('C:\\Users\\verci\\...')
+#20 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', true, Array)
+#21 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#22 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\page.php(12): get_header()
+#23 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\verci\\...')
+#24 C:\Users\verci\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\verci\\...')
+#25 C:\Users\verci\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\verci\\...')
+#26 {main}
+  thrown in C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324
+[22-Feb-2024 11:30:56 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_admin_link(), 1 passed in C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 326 and exactly 2 expected in C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php:39
+Stack trace:
+#0 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(326): add_admin_link('<li id="menu-it...')
+#1 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#2 C:\Users\verci\Local Sites\planty\app\public\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#3 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\partials\header\nav.php(176): wp_nav_menu(Object(stdClass))
+#4 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(792): require('C:\\Users\\verci\\...')
+#5 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', false, Array)
+#6 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#7 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\inc\header-content.php(127): get_template_part('partials/header...')
+#8 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): oceanwp_header_navigation('')
+#9 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#11 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\partials\header\layout.php(100): do_action('ocean_header_in...')
+#12 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(792): require('C:\\Users\\verci\\...')
+#13 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', false, Array)
+#14 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#15 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\inc\helpers.php(1064): get_template_part('partials/header...')
+#16 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): oceanwp_header_template('')
+#17 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#18 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#19 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\header.php(37): do_action('ocean_header')
+#20 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(790): require_once('C:\\Users\\verci\\...')
+#21 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', true, Array)
+#22 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#23 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\page.php(12): get_header()
+#24 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\verci\\...')
+#25 C:\Users\verci\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\verci\\...')
+#26 C:\Users\verci\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\verci\\...')
+#27 {main}
+  thrown in C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php on line 39
+[22-Feb-2024 11:40:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oceanwp_theme() in C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php:47
+Stack trace:
+#0 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): add_admin_link('<li id="menu-it...', Object(stdClass))
+#1 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#2 C:\Users\verci\Local Sites\planty\app\public\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#3 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\partials\header\nav.php(176): wp_nav_menu(Object(stdClass))
+#4 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(792): require('C:\\Users\\verci\\...')
+#5 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', false, Array)
+#6 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#7 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\inc\header-content.php(127): get_template_part('partials/header...')
+#8 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): oceanwp_header_navigation('')
+#9 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#11 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\partials\header\layout.php(100): do_action('ocean_header_in...')
+#12 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(792): require('C:\\Users\\verci\\...')
+#13 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', false, Array)
+#14 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#15 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\inc\helpers.php(1064): get_template_part('partials/header...')
+#16 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): oceanwp_header_template('')
+#17 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#18 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#19 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\header.php(37): do_action('ocean_header')
+#20 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(790): require_once('C:\\Users\\verci\\...')
+#21 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', true, Array)
+#22 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#23 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\page.php(12): get_header()
+#24 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\verci\\...')
+#25 C:\Users\verci\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\verci\\...')
+#26 C:\Users\verci\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\verci\\...')
+#27 {main}
+  thrown in C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php on line 47
+[22-Feb-2024 12:38:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oceanwp_theme() in C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php:44
+Stack trace:
+#0 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): add_admin_link('<li id="menu-it...', Object(stdClass))
+#1 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#2 C:\Users\verci\Local Sites\planty\app\public\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#3 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\partials\header\nav.php(176): wp_nav_menu(Object(stdClass))
+#4 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(792): require('C:\\Users\\verci\\...')
+#5 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', false, Array)
+#6 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#7 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\inc\header-content.php(127): get_template_part('partials/header...')
+#8 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): oceanwp_header_navigation('')
+#9 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#11 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\partials\header\layout.php(100): do_action('ocean_header_in...')
+#12 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(792): require('C:\\Users\\verci\\...')
+#13 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', false, Array)
+#14 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#15 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\inc\helpers.php(1064): get_template_part('partials/header...')
+#16 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): oceanwp_header_template('')
+#17 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#18 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#19 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\header.php(37): do_action('ocean_header')
+#20 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(790): require_once('C:\\Users\\verci\\...')
+#21 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', true, Array)
+#22 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#23 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\page.php(12): get_header()
+#24 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\verci\\...')
+#25 C:\Users\verci\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\verci\\...')
+#26 C:\Users\verci\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\verci\\...')
+#27 {main}
+  thrown in C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php on line 44
+[22-Feb-2024 12:39:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oceanwp_theme() in C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php:44
+Stack trace:
+#0 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): add_admin_link('<li id="menu-it...', Object(stdClass))
+#1 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#2 C:\Users\verci\Local Sites\planty\app\public\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#3 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\partials\header\nav.php(176): wp_nav_menu(Object(stdClass))
+#4 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(792): require('C:\\Users\\verci\\...')
+#5 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', false, Array)
+#6 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#7 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\inc\header-content.php(127): get_template_part('partials/header...')
+#8 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): oceanwp_header_navigation('')
+#9 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#11 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\partials\header\layout.php(100): do_action('ocean_header_in...')
+#12 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(792): require('C:\\Users\\verci\\...')
+#13 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', false, Array)
+#14 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#15 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\inc\helpers.php(1064): get_template_part('partials/header...')
+#16 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): oceanwp_header_template('')
+#17 C:\Users\verci\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#18 C:\Users\verci\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#19 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\header.php(37): do_action('ocean_header')
+#20 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(790): require_once('C:\\Users\\verci\\...')
+#21 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template.php(725): load_template('C:\\Users\\verci\\...', true, Array)
+#22 C:\Users\verci\Local Sites\planty\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#23 C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp\page.php(12): get_header()
+#24 C:\Users\verci\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\verci\\...')
+#25 C:\Users\verci\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\verci\\...')
+#26 C:\Users\verci\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\verci\\...')
+#27 {main}
+  thrown in C:\Users\verci\Local Sites\planty\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php on line 44

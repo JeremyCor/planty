@@ -24,6 +24,16 @@ Version: 1.0
 	background-color: #B43C47;
 }
 
+/* Bloc quantite */
+.quantite {
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
 /* Formulaire Commander */
 
 #frm_form_4_container .frm_primary_label {
@@ -33,12 +43,6 @@ Version: 1.0
 #frm_form_6_container .frm_primary_label {
     color: white;
 }
-
-/* Footer */
-
-.menu-footer-container {
-	text-align: left;
-} 
 
 /* media@ */
 

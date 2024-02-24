@@ -57,3 +57,15 @@ function add_admin_link($items, $args)
 // Ajoutez la fonction comme un filtre pour tous les emplacements de menu
 add_filter('wp_nav_menu_items', 'add_admin_link', 10, 2);
 
+// Shortcode pour afficher un champ de quantité avec styles CSS
+function champ_quantite_shortcode()
+{
+	ob_start(); ?>
+
+	<input type="number" class="quantite" value="1">
+
+	<?php
+	return ob_get_clean();
+}
+
+add_shortcode('champ_quantite', 'champ_quantite_shortcode');

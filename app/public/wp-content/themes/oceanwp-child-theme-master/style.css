@@ -46,3 +46,64 @@ Version: 1.0
 
 /* media@ */
 
+@media (max-width: 768px) {
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+}
+
+@media (max-width: 425px) {
+    /* Ajustez ces valeurs selon vos besoins */
+    h1 {
+        text-align: center !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+}
+
+/* Ajustez ces valeurs selon vos besoins */
+@media (max-width: 375px) {
+    h1.elementor-heading-title {
+        text-align: center !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+}
+
+
+/* Pour les écrans de 767px et moins */
+@media screen and (max-width: 767px) {
+    h1, h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+		display: inline-block;
+		overflow-wrap: break-word;
+		word-wrap: break-word;
+		white-space: normal; 
+	}
+}
+
+/* Pour les écrans entre 768px et 1023px */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    h1, h2 {
+        font-size: 28px;
+        margin-bottom: 15px;
+		display: inline-block;
+		overflow-wrap: break-word;
+		word-wrap: break-word;
+		white-space: normal;   
+	}
+}
+
+/* Pour les écrans de 1024px et plus */
+@media screen and (min-width: 1024px) {
+    h1, h2 {
+        font-size: 32px;
+        margin-bottom: 20px;
+		display: inline-block;
+		overflow-wrap: break-word;
+		word-wrap: break-word;
+		white-space: normal;
+    }
+}

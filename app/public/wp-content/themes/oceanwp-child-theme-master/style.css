@@ -24,6 +24,44 @@ Version: 1.0
 	background-color: #B43C47;
 }
 
+
+/* Cadres des goûts */
+
+/* Centrer la légende sur l'image 
+.widget-image-caption .wp-caption-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+
+
+.widget-image-caption .wp-caption-text {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* Centrer la légende sur l'image */
+.widget-image-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    z-index: 999; /* Assure que la légende est au-dessus de l'image */}
+
+/* Pour s'assurer que le texte prend la largeur complète de l'image */
+.wp-caption-text p {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 2em; /* Vous pouvez ajuster cette valeur en fonction de vos besoins */}
+
+
 /* Bloc quantite */
 .quantite {
 	width: 50px;

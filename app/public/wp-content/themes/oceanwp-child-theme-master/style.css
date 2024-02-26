@@ -25,26 +25,10 @@ Version: 1.0
 }
 
 
+
 /* Cadres des goûts */
 
-/* Centrer la légende sur l'image 
-.widget-image-caption .wp-caption-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    width: 100%;
-}
-
-
-.widget-image-caption .wp-caption-text {
-    width: 100%;
-    box-sizing: border-box;
-    margin: 0;
-}
-
-/* Centrer la légende sur l'image */
+/* Position de la légende sur l'image */
 .widget-image-caption {
     position: absolute;
     top: 50%;
@@ -52,14 +36,15 @@ Version: 1.0
     transform: translate(-50%, -50%);
     text-align: center;
     width: 100%;
-    z-index: 999; /* Assure que la légende est au-dessus de l'image */}
+    z-index: 999; /* indexation supérieure */}
 
-/* Pour s'assurer que le texte prend la largeur complète de l'image */
+/* Espace que prend le texte sur l'img */
 .wp-caption-text p {
     width: 100%;
     box-sizing: border-box;
     margin: 0;
-    font-size: 2em; /* Vous pouvez ajuster cette valeur en fonction de vos besoins */}
+    font-size: 2em;}
+
 
 
 /* Bloc quantite */
@@ -72,7 +57,70 @@ Version: 1.0
 	border-radius: 5px;
 }
 
-/* Formulaire Commander */
+/* Formulaire commande */
+
+/* Style pour les deux colonnes */
+.commander-form-class .frm_form_fields {
+    column-count: 2;
+    column-gap: 50px; /* Réduit l'espace entre les colonnes */
+    max-width: 100%; /* Ajuste la largeur maximale pour éviter le débordement */
+    margin: 0 auto; /* Centrer le formulaire sur les écrans larges */
+    box-sizing: border-box; /* Inclut les bordures et les rembourrages dans la largeur */
+}
+
+/* Ajout de la ligne verticale entre les colonnes */
+.commander-form-class .frm_form_fields:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%; /* Positionne la ligne au milieu des deux colonnes */
+    width: 1px;
+    background-color: #fff; /* Couleur de la ligne */
+}
+
+/* Clearfix pour éviter les problèmes de flottement */
+.commander-form-class .frm_form_field {
+    margin-bottom: 20px; /* Espace entre les champs */
+    box-sizing: border-box; /* Inclut les bordures et les rembourrages dans la hauteur */
+}
+
+/* Centrer le bouton de soumission en bas de la page */
+.frm_button_submit {
+    width: 100%;
+    display: block;
+    margin: 20px auto 0; /* Centrer le bouton en bas de la page */
+    clear: both; /* Éviter que le bouton se positionne à côté des colonnes */
+}
+
+/* Media query pour ajuster le positionnement en version mobile */
+@media only screen and (max-width: 768px) {
+    .commander-form-class .frm_form_fields {
+        column-count: 1; /* Une seule colonne en responsive */
+        margin: 0; /* Réinitialiser la marge pour occuper toute la largeur */
+        font-size: 14px; /* Ajuster la taille de la police pour un affichage plus compact */
+        max-width: 90%; /* Réduire la largeur du formulaire en version mobile */
+    }
+
+    /* Cacher la ligne verticale en responsive */
+    .commander-form-class .frm_form_fields:before {
+        display: none;
+    }
+
+    .frm_button_submit {
+        max-width: 90%; /* Ajuster la largeur en version mobile */
+        margin: 20px auto; /* Centrer le bouton en bas de la page en version mobile */
+    }
+}
+
+
+.titre-commander {
+    text-align: left;
+    font-size: 30px;
+}
+
+
+/* Couleur personalisées du Formulaire Commander */
 
 #frm_form_4_container .frm_primary_label {
     color: white;
@@ -82,7 +130,9 @@ Version: 1.0
     color: white;
 }
 
-/* media@ */
+
+
+/* Responsive */
 
 @media (max-width: 768px) {
     body {
@@ -92,7 +142,6 @@ Version: 1.0
 }
 
 @media (max-width: 425px) {
-    /* Ajustez ces valeurs selon vos besoins */
     h1 {
         text-align: center !important;
         margin-left: 0 !important;
@@ -100,7 +149,6 @@ Version: 1.0
     }
 }
 
-/* Ajustez ces valeurs selon vos besoins */
 @media (max-width: 375px) {
     h1.elementor-heading-title {
         text-align: center !important;
@@ -110,7 +158,7 @@ Version: 1.0
 }
 
 
-/* Pour les écrans de 767px et moins */
+/* 767px et moins */
 @media screen and (max-width: 767px) {
     h1, h2 {
         font-size: 24px;
@@ -122,7 +170,7 @@ Version: 1.0
 	}
 }
 
-/* Pour les écrans entre 768px et 1023px */
+/* entre 768px et 1023px */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     h1, h2 {
         font-size: 28px;
@@ -134,7 +182,7 @@ Version: 1.0
 	}
 }
 
-/* Pour les écrans de 1024px et plus */
+/* 1024px et plus */
 @media screen and (min-width: 1024px) {
     h1, h2 {
         font-size: 32px;

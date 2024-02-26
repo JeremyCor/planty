@@ -35,18 +35,18 @@ add_action('wp_enqueue_scripts', 'oceanwp_child_enqueue_parent_style');
 
 function add_admin_link($items, $args)
 {
-	// Vérifiez si l'utilisateur est connecté à WordPress
+	// utilisateur connecté à WordPress ?
 	if (is_user_logged_in()) {
-		// Construisez le lien "Admin"
+		// lien "Admin"
 		$admin_link = '<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-admin"><a href="' . esc_url(get_admin_url()) . '">Admin</a></li>';
 
-		// Trouvez la position du premier élément de menu
+		// Trouve la position du premier élément de menu
 		$pos_first_menu = strpos($items, '<li');
 
-		// Trouvez la position du premier élément de menu après le premier
+		// Trouve la position du premier élément de menu après le premier
 		$pos_second_menu = strpos($items, '<li', $pos_first_menu + 1);
 
-		// Insérez le lien "Admin" après le premier élément de menu
+		// Insére le lien "Admin" après le premier élément de menu
 		if ($pos_first_menu !== false && $pos_second_menu !== false) {
 			$items = substr_replace($items, $admin_link, $pos_second_menu, 0);
 		}
@@ -57,7 +57,7 @@ function add_admin_link($items, $args)
 // Ajoutez la fonction comme un filtre pour tous les emplacements de menu
 add_filter('wp_nav_menu_items', 'add_admin_link', 10, 2);
 
-// Shortcode pour afficher un champ de quantité avec styles CSS
+// Shortcode des champs de quantité avec styles CSS
 function champ_quantite_shortcode()
 {
 	ob_start(); ?>

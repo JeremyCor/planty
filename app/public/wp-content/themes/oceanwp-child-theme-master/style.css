@@ -59,78 +59,120 @@ Version: 1.0
 
 /* Formulaire commande */
 
-/* Style pour les deux colonnes */
-.commander-form-class .frm_form_fields {
-    column-count: 2;
-    column-gap: 50px; /* Réduit l'espace entre les colonnes */
-    max-width: 100%; /* Ajuste la largeur maximale pour éviter le débordement */
-    margin: 0 auto; /* Centrer le formulaire sur les écrans larges */
-    box-sizing: border-box; /* Inclut les bordures et les rembourrages dans la largeur */
+.two-column-form .column {
+    display: inline-block;
+    vertical-align: top;
+    width: 48%;
+    box-sizing: border-box;
+    padding: 10px;
 }
 
-/* Ajout de la ligne verticale entre les colonnes */
-.commander-form-class .frm_form_fields:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 50%; /* Positionne la ligne au milieu des deux colonnes */
-    width: 1px;
-    background-color: #fff; /* Couleur de la ligne */
+.two-column-form h3 {
+    font-family: 'Syne', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 15px;
 }
 
-/* Clearfix pour éviter les problèmes de flottement */
-.commander-form-class .frm_form_field {
-    margin-bottom: 20px; /* Espace entre les champs */
-    box-sizing: border-box; /* Inclut les bordures et les rembourrages dans la hauteur */
-}
-
-/* Centrer le bouton de soumission en bas de la page */
-.frm_button_submit {
-    width: 100%;
+.two-column-form label {
     display: block;
-    margin: 20px auto 0; /* Centrer le bouton en bas de la page */
-    clear: both; /* Éviter que le bouton se positionne à côté des colonnes */
+    font-family: 'Syne', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.two-column-form .custom-input {
+    background-color: #fff;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.two-column-form .frm_button_submit_container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.two-column-form input[type="submit"] {
+    background-color: #CFA49A;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.frm_button_submit_container {
+    width: 100%;
+    padding-right: 30px;
+}
+
+/* Style pour le bouton de soumission (submit) */
+.two-column-form input[type="submit"] {
+    background-color: #CFA49A;
+    color: #fff;
+    border: none;
+    padding: 20px 30px;
+    margin-left: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.two-column-form input[type="submit"]:hover {
+    background-color: #B43C47;
+}
+
+.two-column-form input[type="submit"]:focus {
+    background-color: #CFA49A;
+}
+
+.two-column-form input[type="submit"]:active {
+    background-color: #B43C47;
+}
+
+.wpcf7-spinner {
+    display: block;
+    text-align: center;
+}
+
+/* Style pour les deux colonnes */
+.two-column-form .column {
+    display: inline-block;
+    vertical-align: top;
+    width: 48%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+/* Marge à droite sur la première colonne */
+.two-column-form .column:first-child {
+    margin-right: 3%; /* Ajoutez votre espace ici */
+}
+
+/* Marge à gauche sur la deuxième colonne */
+.two-column-form .column:last-child {
+    margin-left: 3%; /* Ajoutez votre espace ici */
+}
+
+/* Media query pour ajuster l'espace en version mobile */
+@media only screen and (max-width: 768px) {
+    .two-column-form .column {
+        width: 100%; /* Une seule colonne en version mobile */
+        margin-right: 0; /* Réinitialiser la marge pour une seule colonne */
+        margin-left: 0; /* Réinitialiser la marge pour une seule colonne */
+    }
 }
 
 /* Media query pour ajuster le positionnement en version mobile */
 @media only screen and (max-width: 768px) {
-    .commander-form-class .frm_form_fields {
-        column-count: 1; /* Une seule colonne en responsive */
-        margin: 0; /* Réinitialiser la marge pour occuper toute la largeur */
-        font-size: 14px; /* Ajuster la taille de la police pour un affichage plus compact */
-        max-width: 90%; /* Réduire la largeur du formulaire en version mobile */
-    }
-
-    /* Cacher la ligne verticale en responsive */
-    .commander-form-class .frm_form_fields:before {
-        display: none;
-    }
-
-    .frm_button_submit {
-        max-width: 90%; /* Ajuster la largeur en version mobile */
-        margin: 20px auto; /* Centrer le bouton en bas de la page en version mobile */
+    .two-column-form .column {
+        width: 100%;
+        margin-right: 0;
     }
 }
-
-
-.titre-commander {
-    text-align: left;
-    font-size: 30px;
-}
-
-
-/* Couleur personalisées du Formulaire Commander */
-
-#frm_form_4_container .frm_primary_label {
-    color: white;
-}
-
-#frm_form_6_container .frm_primary_label {
-    color: white;
-}
-
-
 
 /* Responsive */
 
